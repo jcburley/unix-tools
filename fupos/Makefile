@@ -5,5 +5,4 @@ clean:
 	rm -f seek
 
 install:
-	install seek /usr/local/bin
-
+	install -p seek /usr/local/bin
